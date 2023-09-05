@@ -6,4 +6,5 @@ def main(s):
     Returns:
         str: answer
     """
-    return s[0],s[1],s[3] 
+    return f"{s[0]+s[1]+s[2] }"
+print(main(str(input())))
