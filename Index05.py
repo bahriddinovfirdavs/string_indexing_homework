@@ -12,4 +12,4 @@ def main(s):
     d=type(s[3])
     e=type(s[4])
     return a,b,c,d,e
-print(main(str(int(input()))))
+
