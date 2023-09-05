@@ -7,4 +7,4 @@ def main(s):
         str: answer
     """
     return f"{s[0]+s[1]+s[2] }"
-print(main(str(input())))
+
