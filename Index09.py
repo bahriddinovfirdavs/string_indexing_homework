@@ -8,4 +8,3 @@ def main(s):
     """
     if int(s):
         return s
-print(main(str(input())))
