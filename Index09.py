@@ -8,7 +8,4 @@ def main(s):
     """
     if int(s):
         return s
-    if int(s)==0:
-        return s
-    if s==int(s):
-        return -1
+print(main(str(input())))

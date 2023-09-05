@@ -6,10 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    a=s[0]
-    b=s[1]
-    c=s[2]
-    d=s[3]
-    e=s[4]
+    a=int(s[0])
+    b=int(s[1])
+    c=int(s[2])
+    d=int(s[3])
+    e=int(s[4])
     p=a+b+c+d+e
     return p
