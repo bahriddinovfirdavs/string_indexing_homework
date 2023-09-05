@@ -11,5 +11,5 @@ def main(s):
     c=s[2]
     d=s[3]
     e=s[4]
-
-    return a+b+c+d+e
+    p=a+b+c+d+e
+    return p
