@@ -6,4 +6,5 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    a=(s[0]+s[1]+s[2]+s[3]+s[4])
+    return a

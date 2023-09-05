@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if int(s):
+        return s
+    if int(s)==0:
+        return s
+    if s==int(s):
+        return -1
