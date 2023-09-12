@@ -6,8 +6,8 @@ def main(s):
     Returns:
         int: answer
     """
-    if s[0] in 'qwertyuiopasdfghjkzxcvbnm':
-        return -1
-    return int(s)
+    if s in '1234567890':
+        return int(s)
+    return -1
 
 
