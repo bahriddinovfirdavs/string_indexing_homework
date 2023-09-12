@@ -6,4 +6,8 @@ def main(s):
     Returns:
         int: answer
     """
+    if s[0] in 'qwertyuiopasdfghjkzxcvbnm':
+        return -1
+    return int(s)
+print(main(str(input())))
 
